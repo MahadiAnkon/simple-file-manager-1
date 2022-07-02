@@ -1,5 +1,5 @@
 1. Splash Screen:
-![splashscreen](https://user-images.githubusercontent.com/102902991/177008533-3847f8a2-4c44-4b3b-b037-69087556859e.png =200*400)
+<img src=https://user-images.githubusercontent.com/102902991/177008533-3847f8a2-4c44-4b3b-b037-69087556859e.png"" width="200" height="400" />
 
 2. Measurement Record List:
 ![RecordList](https://user-images.githubusercontent.com/102902991/177008651-b9da2942-c8e7-4cc1-8b9b-7bde755cf6cf.png =300x400)
