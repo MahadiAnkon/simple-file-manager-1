@@ -1,35 +1,13 @@
-simple-file-manager
-===================
+1. Splash Screen:
+![splashscreen](https://user-images.githubusercontent.com/102902991/177008533-3847f8a2-4c44-4b3b-b037-69087556859e.png =200*400)
 
-A Simple PHP file manager.  The code is a single php file.  
+2. Measurement Record List:
+![RecordList](https://user-images.githubusercontent.com/102902991/177008651-b9da2942-c8e7-4cc1-8b9b-7bde755cf6cf.png =300x400)
 
-Just copy `index.php` to a folder on your webserver.  
 
-## Why it is good
+3. Add Record:
+![AddRecord](https://user-images.githubusercontent.com/102902991/177008664-2641db4a-a3e3-4c59-8e14-fc60eaa86a79.png =300x400)
 
-- Single file, there are no images, or css folders.  
-- Ajax based so it is fast, but doesn't break the back button
-- Allows drag and drop file uploads if the folder is writable by the webserver (`chmod 777 your/folder`)
-- Suits my aesthetics.  More like Dropbox, and less like Windows Explorer
-- Works with Unicode file names
-- The interface is usable from an iPad
-- XSRF protection, and an optional password.
 
-## Do not allow uploads on the public web
-
-If you allow uploads on the public web, it is only a matter of time before your server is hosting and serving very illegal content. Any of the following options will prevent this:
- - Don't make the folder writable by the webserver `chmod 775`
- - Set `$allow_upload = false`
- - Use a password `$PASSWORD = 'some password'`
- - Use a `.htaccess` file with Apache, or `auth_basic` for nginx
- - Only use this on a private network
-
-HT: [@beardog108](https://github.com/beardog108)
-
-## Forks
-
-- **Edit feature**. An extension of the initial project which lets you edit files and save them from the main php file. Works asynchronously with ajax requests. Link: [@diego95root](https://github.com/diego95root/File-manager-php)
-
-## Screenshot
-
-![Screenshot](https://raw.github.com/jcampbell1/simple-file-manager/master/screenshot.png "Screenshot")
+4.Update Record:
+![Update](https://user-images.githubusercontent.com/102902991/177008635-9332403c-da41-4623-89aa-c43680f1d941.png =300x400)
